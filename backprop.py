@@ -7,8 +7,8 @@ from nnfs.datasets import spiral_data
 from Categorical_Cross_Entropy_Loss import Loss_CategoricalCrossEntropy
 from Categorical_Cross_Entropy_Loss import Activation_Softmax_Loss_CategoricalCrossEntropy
 
-nnfs.init()
 
+nnfs.init()
 
 X,y = spiral_data(samples=100, classes=3)
 
